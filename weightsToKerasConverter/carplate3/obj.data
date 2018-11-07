@@ -1,0 +1,5 @@
+classes= 2
+train  = carplate3/train.txt
+valid  = carplate3/test.txt
+names = carplate3/obj.names
+backup = carplate3/

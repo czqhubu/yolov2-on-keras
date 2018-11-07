@@ -1,0 +1,8 @@
+https://github.com/allanzelener/YAD2K
+1) создаем модель керас из модели yolo
+./yad2k.py yolo.cfg yolov2.weights model_data/yolo.h5
+2)записываем конфиги в модель
+./test_yolo.py model_data/yolo.h5 
+После запуска сохранится новый файл с параметрами "yolo5.h5" (142 строка в test_yolo.py)
+
+
